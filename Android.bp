@@ -161,14 +161,13 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "WfdService",
+	name: "aptxui",
 	owner: "asus",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	apk: "proprietary/app/aptxui/aptxui.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	privileged: true,
 }
 
 android_app_import {
@@ -286,5 +285,3 @@ android_app_import {
 	privileged: true,
 	system_ext_specific: true,
 }
-
-
