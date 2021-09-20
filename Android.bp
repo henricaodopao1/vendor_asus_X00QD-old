@@ -287,22 +287,4 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-dex_import {
-	name: "WfdCommon",
-	owner: "asus",
-	jars: ["proprietary/framework/WfdCommon.jar"],
-}
-
-dex_import {
-	name: "QPerformance",
-	owner: "asus",
-	jars: ["proprietary/framework/QPerformance.jar"],
-}
-
-dex_import {
-	name: "UxPerformance",
-	owner: "asus",
-	jars: ["proprietary/framework/UxPerformance.jar"],
-}
-
 
