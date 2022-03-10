@@ -2817,6 +2817,7 @@ PRODUCT_PACKAGES += \
     IWlanService \
     QFingerprintService \
     TimeService \
+    PowerOffAlarm \
     QtiTelephonyService \
     datastatusnotification \
     dpmserviceapp \
